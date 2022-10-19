@@ -1,0 +1,95 @@
+body{
+    background-color:#8E4162 ;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    color:#DBDBDB;
+    height:100%;    
+    font-size:1.2rem;
+    text-align: center;
+    padding: 5% 7%;
+
+}
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;    
+    flex-direction: column;
+}
+h1{
+    font-family: cursive;
+}
+#alphabet{
+    margin:15px auto;
+    padding:0;
+    max-width:900px; 
+}
+#alphabet li {
+    float:left;
+    margin: 0 10px 10px 0;
+    list-style:none;
+    width:35px;
+    height:30px;
+    padding-top:10px;
+    background:white;
+    color:#8E4162;
+    cursor:pointer;    
+    border: solid 1px white;
+}
+      
+#alphabet li:hover{
+    background-color:#8E4162 ;
+    border: solid 1px white;
+    color:white;
+}
+#my-word {
+    margin: 0;
+    display: block;
+    padding: 0;
+    display:block;
+}
+  
+#my-word li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    padding: 0 10px;
+    font-size:1.6em;
+}
+.active{
+    cursor: default;    
+    opacity:0.4;
+    filter:alpha(opacity=40); 
+}
+canvas{
+    color: white;
+    border: white dashed 2px;
+    padding: 15px;
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+button{
+    margin: 30px 10px;
+    font-size:1.2em;
+    padding:18px 10px;
+    width:180px;
+    outline: none;
+    color: #8E4162;
+}
+button:hover{
+    background-color:#8E4162 ;
+    border: solid 1px #DBDBDB;
+    color:#DBDBDB; 
+}
+
+@media (max-width: 520px) {
+    button{
+        margin: 10px 5px;
+        font-size:0.7em;
+        padding:10px 5px;
+        width:80px;  
+    }
+}
+
+
+  
